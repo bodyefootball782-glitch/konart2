@@ -1535,7 +1535,87 @@ cursor:pointer;
 float:right;
 font-size:24px;
 }
+/* =========================
+   MOBILE BACKGROUND
+========================= */
 
+@media (max-width:768px){
+
+.background-image{
+
+background-image:url("assets/images/mobile-bg.jpg");
+
+background-size:cover;
+background-position:center;
+background-repeat:no-repeat;
+background-attachment:scroll;
+
+}
+
+}
+@media (max-width:768px){
+
+.hero{
+padding-top:70px;
+}
+
+.hero-logo{
+width:130px;
+}
+
+.hero h1{
+font-size:38px;
+}
+
+.hero p{
+font-size:14px;
+}
+
+.logo{
+font-size:20px;
+}
+
+}
+@media (max-width:768px){
+
+.popup-box{
+
+width:88%;
+max-width:300px;
+
+padding:18px;
+
+border-radius:16px;
+
+}
+
+.popup-box h2{
+
+font-size:20px;
+
+}
+
+.setting-group{
+
+margin:12px 0;
+
+}
+
+.setting-group button{
+
+padding:10px 14px;
+font-size:14px;
+
+}
+
+.setting-group select,
+.setting-group input{
+
+font-size:14px;
+
+}
+
+}
 /* ==========================================
 END
 ========================================== */
