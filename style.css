@@ -1612,41 +1612,15 @@ font-size:14px;
 
 }
 .vip-order{
-    width:100%;
     display:flex;
     justify-content:center;
-    margin:60px 0;
-}
-
-.vip-btn{
-    position:relative;
-    display:flex;
     align-items:center;
-    justify-content:center;
-    gap:12px;
-
-    width:320px;
-    height:75px;
-
-    border-radius:18px;
-
-    text-decoration:none;
-    color:#fff;
-
-    font-size:26px;
-    font-weight:700;
-    letter-spacing:2px;
-
-    background:linear-gradient(90deg,#d4af37,#ffd700,#d4af37);
-    background-size:300%;
-
-    box-shadow:
-    0 0 20px rgba(212,175,55,.6),
-    0 0 50px rgba(212,175,55,.3);
-
-    transition:.35s;
-    animation:goldMove 5s linear infinite;
+    width:100%;
+    margin:60px auto;
+    clear:both;
 }
+
+
 
 .vip-btn:hover{
     transform:translateY(-8px) scale(1.05);
@@ -1681,17 +1655,76 @@ font-size:14px;
     }
 }
 
-@media(max-width:768px){
+/* ===========================
+   VIP BUTTON
+=========================== */
+
+.vip-order{
+    width:100%;
+    display:flex;
+    justify-content:center;
+    margin:60px 0;
+}
 
 .vip-btn{
+    position:relative;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:12px;
 
-width:90%;
-height:65px;
-font-size:22px;
+    width:360px;
+    height:75px;
+
+    border-radius:18px;
+
+    text-decoration:none;
+    color:#fff;
+
+    font-size:26px;
+    font-weight:700;
+    letter-spacing:2px;
+
+    background:linear-gradient(90deg,#d4af37,#ffd700,#d4af37);
+    background-size:300%;
+
+    box-shadow:
+    0 0 20px rgba(212,175,55,.6),
+    0 0 50px rgba(212,175,55,.3);
+
+    transition:.35s;
+    animation:goldMove 5s linear infinite;
+}
+
+.vip-btn:hover{
+    transform:translateY(-8px) scale(1.05);
+}
+
+.vip-btn::before{
+    content:"";
+    position:absolute;
+    inset:-4px;
+    border-radius:22px;
+    border:2px solid rgba(255,215,0,.7);
+    animation:pulse 2s infinite;
+}
+
+@media (max-width:768px){
+
+    .vip-btn{
+        width:90%;
+        height:65px;
+        font-size:22px;
+    }
 
 }
 
+@media (min-width:992px){
+
+    .vip-btn{
+        width:420px;
+        height:82px;
+        font-size:28px;
+    }
+
 }
-/* ==========================================
-END
-========================================== */
