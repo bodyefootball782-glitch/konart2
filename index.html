@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>KONART | Official Website</title>
+
+<meta name="description" content="KON ART Official Portfolio & Store">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<!-- ===================================== -->
+<!-- LOADING SCREEN -->
+<!-- ===================================== -->
+
+<div id="loader">
+
+
+</div>
+
+<div class="loader-bar">
+
+<span></span>
+
+</div>
+
+</div>
+
+<!-- ===================================== -->
+<!-- BACKGROUND -->
+<!-- ===================================== -->
+
+<div class="background-image"></div>
+
+<div class="background-overlay"></div>
+
+<div id="particles"></div>
+
+<!-- ===================================== -->
+<!-- HEADER -->
+<!-- ===================================== -->
+
+<header>
+
+
+<div class="header-buttons">
+
+<button id="settingsBtn">
+
+<i class="fa-solid fa-gear"></i>
+
+</button>
+
+</div>
+
+</header>
+
+<!-- ===================================== -->
+<!-- SETTINGS POPUP -->
+<!-- ===================================== -->
+
+<div id="settingsPopup" class="popup">
+
+<div class="popup-box">
+
+<span id="closePopup">
+
+<i class="fa-solid fa-xmark"></i>
+
+</span>
+
+<h2>
+
+SETTINGS
+
+</h2>
+
+<div class="setting-group">
+
+<h3>
+
+🎵 Music
+
+</h3>
+
+<button id="playBtn">
+
+Play
+
+</button>
+
+<button id="pauseBtn">
+
+Pause
+
+</button>
+
+<button id="muteBtn">
+
+Mute
+
+</button>
+
+</div>
+
+<div class="setting-group">
+
+<label>
+
+Volume
+
+</label>
+
+<input
+type="range"
+id="volumeSlider"
+min="0"
+max="100"
+value="60">
+
+</div>
+
+<div class="setting-group">
+
+<label>
+
+Music
+
+</label>
+
+<select id="musicSelect">
+
+<option value="1">
+
+Music 1
+
+</option>
+
+<option value="2">
+
+Music 2
+
+</option>
+
+</select>
+
+</div>
+
+<div class="setting-group">
+
+<label>
+
+Language
+
+</label>
+
+<select id="languageSelect">
+
+<option value="en">
+
+English
+
+</option>
+
+<option value="ar">
+
+العربية
+
+</option>
+
+</select>
+
+</div>
+
+<div class="setting-group">
+
+<button id="particlesToggle">
+
+✨ Particles ON
+
+</button>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- ===================================== -->
+<!-- HERO -->
+<!-- ===================================== -->
+
+<section class="hero">
+
+<img
+src="assets/images/logo.png"
+class="hero-logo"
+alt="Kon Art">
+
+<h1>
+
+KON ART
+
+</h1>
+
+<p>
+
+Professional Graphic Designer & Content Creator
+
+</p>
+
+<div class="hero-buttons">
+
+<a href="#gallery">
+
+Gallery
+
+</a>
+
+<a href="#store">
+
+Store
+
+</a>
+
+</div>
+
+</section>
+<!-- ===================================== -->
+<!-- STORE -->
+<!-- ===================================== -->
+
+<section id="store" class="store">
+
+<h2>
+
+STORE
+
+</h2>
+
+<p class="section-description">
+
+Choose the service that suits you.
+
+</p>
+
+<div class="store-grid">
+
+<!-- ITEM 1 -->
+
+<div class="store-card">
+
+<img src="assets/store/item1.png" alt="Item 1">
+
+<h3>MY_DESIGN</h3>
+
+<span class="price"></span>
+
+<a href="#" class="order-btn">
+
+Order Now
+
+</a>
+
+</div>
+
+<!-- ITEM 2 -->
+
+<div class="store-card">
+
+<img src="assets/store/item2.png" alt="Item 2">
+
+<h3>MY_DESIGN</h3>
+
+<span class="price"></span>
+
+<a href="#" class="order-btn">
+
+Order Now
+
+</a>
+
+</div>
+
+<!-- ITEM 3 -->
+
+<div class="store-card">
+
+<img src="assets/store/item3.png" alt="Item 3">
+
+<h3>MY_DESIGN</h3>
+
+<span class="price"></span>
+
+<a href="#" class="order-btn">
+
+Order Now
+
+</a>
+
+</div>
+
+<!-- ITEM 4 -->
+
+<div class="store-card">
+
+<img src="assets/store/item4.png" alt="Item 4">
+
+<h3>MY_DESIGN</h3>
+
+<span class="price"></span>
+
+<a href="#" class="order-btn">
+
+Order Now
+
+</a>
+
+</div>
+
+<!-- ITEM 5 -->
+
+<div class="store-card">
+
+<img src="assets/store/item5.png" alt="Item 5">
+
+<h3>MY_DESIGN</h3>
+
+<span class="price"></span>
+
+<a href="#" class="order-btn">
+
+Order Now
+
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ===================================== -->
+<!-- GALLERY -->
+<!-- ===================================== -->
+
+<section id="gallery" class="gallery">
+
+<h2>
+
+GALLERY
+
+</h2>
+
+<p class="section-description">
+
+Latest Designs From KON ART
+
+</p>
+
+<div class="gallery-grid">
+
+<!-- IMAGE 1 -->
+
+<div class="gallery-item">
+
+<img src="assets/gallery/1.jpg" alt="Gallery 1">
+
+<h3>IMAGE NAME 1</h3>
+
+</div>
+
+<!-- IMAGE 2 -->
+
+<div class="gallery-item">
+
+<img src="assets/gallery/2.jpg" alt="Gallery 2">
+
+<h3>IMAGE NAME 2</h3>
+
+</div>
+
+<!-- IMAGE 3 -->
+
+<div class="gallery-item">
+
+<img src="assets/gallery/3.jpg" alt="Gallery 3">
+
+<h3>IMAGE NAME 3</h3>
+
+</div>
+
+<!-- IMAGE 4 -->
+
+<div class="gallery-item">
+
+<img src="assets/gallery/4.jpg" alt="Gallery 4">
+
+<h3>IMAGE NAME 4</h3>
+
+</div>
+
+<!-- IMAGE 5 -->
+
+<div class="gallery-item">
+
+<img src="assets/gallery/5.jpg" alt="Gallery 5">
+
+<h3>IMAGE NAME 5</h3>
+
+</div>
+
+<!-- IMAGE 6 -->
+
+<div class="gallery-item">
+
+<img src="assets/gallery/6.jpg" alt="Gallery 6">
+
+<h3>IMAGE NAME 6</h3>
+
+</div>
+
+<!-- IMAGE 7 -->
+
+<div class="gallery-item">
+
+<img src="assets/gallery/7.jpg" alt="Gallery 7">
+
+<h3>IMAGE NAME 7</h3>
+
+</div>
+
+<!-- IMAGE 8 -->
+
+<div class="gallery-item">
+
+<img src="assets/gallery/8.jpg" alt="Gallery 8">
+
+<h3>IMAGE NAME 8</h3>
+
+</div>
+
+<!-- IMAGE 9 -->
+
+<div class="gallery-item">
+
+<img src="assets/gallery/9.jpg" alt="Gallery 9">
+
+<h3>IMAGE NAME 9</h3>
+
+</div>
+
+<!-- IMAGE 10 -->
+
+<div class="gallery-item">
+
+<img src="assets/gallery/10.jpg" alt="Gallery 10">
+
+<h3>IMAGE NAME 10</h3>
+
+</div>
+<!-- IMAGE 11 -->
+
+<div class="gallery-item">
+
+<img src="assets/gallery/11.jpg" alt="Gallery 11">
+
+<h3>IMAGE NAME 11</h3>
+
+</div>
+
+<!-- IMAGE 12 -->
+
+<div class="gallery-item">
+
+<img src="assets/gallery/12.jpg" alt="Gallery 12">
+
+<h3>IMAGE NAME 12</h3>
+
+</div>
+
+<!-- IMAGE 13 -->
+
+<div class="gallery-item">
+
+<img src="assets/gallery/13.jpg" alt="Gallery 13">
+
+<h3>IMAGE NAME 13</h3>
+
+</div>
+
+<!-- IMAGE 14 -->
+
+<div class="gallery-item">
+
+<img src="assets/gallery/14.jpg" alt="Gallery 14">
+
+<h3>IMAGE NAME 14</h3>
+
+</div>
+
+<!-- IMAGE 15 -->
+
+<div class="gallery-item">
+
+<img src="assets/gallery/15.jpg" alt="Gallery 15">
+
+<h3>IMAGE NAME 15</h3>
+
+</div>
+
+<!-- IMAGE 16 -->
+
+<div class="gallery-item">
+
+<img src="assets/gallery/16.jpg" alt="Gallery 16">
+
+<h3>IMAGE NAME 16</h3>
+
+</div>
+
+<!-- IMAGE 17 -->
+
+<div class="gallery-item">
+
+<img src="assets/gallery/17.jpg" alt="Gallery 17">
+
+<h3>IMAGE NAME 17</h3>
+
+</div>
+
+<!-- IMAGE 18 -->
+
+<div class="gallery-item">
+
+<img src="assets/gallery/18.jpg" alt="Gallery 18">
+
+<h3>IMAGE NAME 18</h3>
+
+</div>
+
+<!-- IMAGE 19 -->
+
+<div class="gallery-item">
+
+<img src="assets/gallery/19.jpg" alt="Gallery 19">
+
+<h3>IMAGE NAME 19</h3>
+
+</div>
+
+<!-- IMAGE 20 -->
+
+<div class="gallery-item">
+
+<img src="assets/gallery/20.jpg" alt="Gallery 20">
+
+<h3>IMAGE NAME 20</h3>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ===================================== -->
+<!-- SOCIAL -->
+<!-- ===================================== -->
+
+<section id="social" class="social">
+
+<h2>
+
+FOLLOW KON ART
+
+</h2>
+
+<p class="section-description">
+
+Stay Connected With Me
+
+</p>
+
+<div class="social-grid">
+
+<a href="YOUR_DISCORD_LINK" target="_blank" class="social-card">
+
+<i class="fa-brands fa-discord"></i>
+
+<h3>Discord</h3>
+
+<p>Join Our Community</p>
+
+</a>
+
+<a href="https://www.tiktok.com/@konart120?_r=1&_t=ZS-98fd4YrQ3oi" target="_blank" class="social-card">
+
+<i class="fa-brands fa-tiktok"></i>
+
+<h3>TikTok</h3>
+
+<p>Latest Videos</p>
+
+</a>
+
+<a href="https://www.instagram.com/konart._?igsh=MTNyY2F3dHkwZzRxYw==" target="_blank" class="social-card">
+
+<i class="fa-brands fa-instagram"></i>
+
+<h3>Instagram</h3>
+
+<p>Daily Posts</p>
+
+</a>
+
+<a href="YOUR_YOUTUBE_LINK" target="_blank" class="social-card">
+
+<i class="fa-brands fa-youtube"></i>
+
+<h3>YouTube</h3>
+
+<p>Watch Content</p>
+
+</a>
+
+<a href="https://www.facebook.com/share/1Kh8BBERL7/" target="_blank" class="social-card">
+
+<i class="fa-brands fa-facebook"></i>
+
+<h3>Facebook</h3>
+
+<p>Official Page</p>
+
+</a>
+
+<a href="YOUR_WHATSAPP_LINK" target="_blank" class="social-card">
+
+<i class="fa-brands fa-whatsapp"></i>
+
+<h3>WhatsApp</h3>
+
+<p>Contact Directly</p>
+
+</a>
+
+</div>
+
+</section>
+<!-- ===================================== -->
+<!-- FOOTER -->
+<!-- ===================================== -->
+
+<footer>
+
+<div class="footer-logo">
+
+KON ART
+
+</div>
+
+<p>
+
+Professional Graphic Designer
+
+</p>
+
+<div class="footer-social">
+
+<a href="YOUR_DISCORD_LINK" target="_blank">
+
+<i class="fa-brands fa-discord"></i>
+
+</a>
+
+<a href="https://www.tiktok.com/@konart120?_r=1&_t=ZS-98fd4YrQ3oi" target="_blank">
+
+<i class="fa-brands fa-tiktok"></i>
+
+</a>
+
+<a href="https://www.instagram.com/konart._?igsh=MTNyY2F3dHkwZzRxYw==" target="_blank">
+
+<i class="fa-brands fa-instagram"></i>
+
+</a>
+
+<a href="YOUR_YOUTUBE_LINK" target="_blank">
+
+<i class="fa-brands fa-youtube"></i>
+
+</a>
+
+<a href="https://www.facebook.com/share/1Kh8BBERL7/" target="_blank">
+
+<i class="fa-brands fa-facebook"></i>
+
+</a>
+
+<a href="YOUR_WHATSAPP_LINK" target="_blank">
+
+<i class="fa-brands fa-whatsapp"></i>
+
+</a>
+
+</div>
+
+<p class="copyright">
+
+© 2026 KON ART - All Rights Reserved.
+
+</p>
+
+</footer>
+
+<!-- ===================================== -->
+<!-- LIGHTBOX -->
+<!-- ===================================== -->
+
+<div id="lightbox">
+
+<span id="closeLightbox">
+
+<i class="fa-solid fa-xmark"></i>
+
+</span>
+
+<img id="lightboxImage" src="" alt="Preview">
+
+</div>
+
+<!-- ===================================== -->
+<!-- SCROLL TO TOP -->
+<!-- ===================================== -->
+
+<button id="scrollTop">
+
+<i class="fa-solid fa-arrow-up"></i>
+
+</button>
+
+<!-- ===================================== -->
+<!-- TOAST -->
+<!-- ===================================== -->
+
+<div id="toast">
+
+<i class="fa-solid fa-circle-check"></i>
+
+<span id="toastText">
+
+Welcome To KON ART
+
+</span>
+
+</div>
+
+<!-- ===================================== -->
+<!-- AUDIO -->
+<!-- ===================================== -->
+
+<audio id="music1">
+
+<source src="assets/music/music1.mp3" type="audio/mpeg">
+
+</audio>
+
+<audio id="music2">
+
+<source src="assets/music/music2.mp3" type="audio/mpeg">
+
+</audio>
+
+<!-- ===================================== -->
+<!-- JAVASCRIPT -->
+<!-- ===================================== -->
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
